@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Asset Type:</strong>
+  <%= @ip_asset.asset_type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @ip_asset.description %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @ip_asset.title %>
+</p>
+
+<%= link_to 'Edit', edit_ip_asset_path(@ip_asset) %> |
+<%= link_to 'Back', ip_assets_path %>
